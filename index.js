@@ -88,7 +88,7 @@ const addManager = () => {
 }
 
 promptUser()
-.then(workerData => {
-    return generateData(workerData);
-})
-.then
+// .then(workerData => {
+//     return generateData(workerData);
+// })
+// .then
