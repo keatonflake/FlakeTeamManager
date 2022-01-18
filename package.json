@@ -3,26 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keatonflake/flakeTeamManager.git"
+    "url": "git+https://github.com/keatonflake/FlakeTeamManager.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keatonflake/flakeTeamManager/issues"
+    "url": "https://github.com/keatonflake/FlakeTeamManager/issues"
   },
-  "homepage": "https://github.com/keatonflake/flakeTeamManager#readme",
+  "homepage": "https://github.com/keatonflake/FlakeTeamManager#readme",
   "devDependencies": {
     "jest": "^27.4.7"
-  },
-  "dependencies": {
-    "inquirer": "^8.2.0"
-  },
-  "directories": {
-    "lib": "lib"
   }
 }
